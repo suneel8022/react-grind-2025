@@ -5,6 +5,8 @@ function App() {
 
     <>
     <Card/>
+    <Card/>
+    <Card/>
     </>
 );
 
