@@ -1,8 +1,10 @@
 import MyObject from "./MyObject"
+import MyArray from "./MyArray"
 
 function App() {
   return (
-    <MyObject/>
+    // <MyObject/>
+    <MyArray/>
   )
 }
 
