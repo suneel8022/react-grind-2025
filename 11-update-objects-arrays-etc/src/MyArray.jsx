@@ -4,10 +4,11 @@ function MyArray(){
 
     const [fruits, setFruits] = useState(["Apple","Banana","Orange"])
 
+     // handler for adding for fruits
     const handleAddFruits = () =>{
         const newFruit = document.getElementById("addFruit").value;
         document.getElementById("addFruit").value = "";
-        
+
         setFruits(fruits => [...fruits,newFruit]);
     }   
 
