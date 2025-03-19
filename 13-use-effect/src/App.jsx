@@ -1,8 +1,10 @@
 import MyComponent from "./MyCount"
+import MyWindow from "./MyWindow"
 function App() {
   return (
     <>
-      <MyCount/>
+      {/* <MyCount/> */}
+      <MyWindow/>
     </>
   )
 }
